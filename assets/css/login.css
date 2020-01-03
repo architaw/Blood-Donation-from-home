@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("../images/bg-login.jpg");
+    background-size: 100% 100%;
+    background-position: absolute;
+}
+
+.box{
+    width: 500px;
+    padding: 25px 35px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: black;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 540;
+}
+.box p{
+    color: silver;
+
+}
+
+.box input[type = "text"], .box input[type = "Password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 400px;
+    border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background: red;
+}
+
+/* unvisited link */
+#signup:link {
+    color: blue;
+  }
+  
+  /* visited link */
+#signup:visited {
+    color: blue;
+  }
+  
+  /* mouse over link */
+#signup:hover {
+    color: rgb(114, 231, 114);
+  }
+  
+  /* selected link */
+#signup:active {
+    color: blue;
+  }

@@ -48,7 +48,7 @@
   },
   "homepage": "http://demos.creative-tim.com/material-dashboard/examples/dashboard.html?_ga=2.143239282.69692347.1519629130-329288944.1519374311",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "connect-mongo": "^3.0.0",
     "connect-mongoose": "0.0.2",
     "ejs": "^2.6.2",
